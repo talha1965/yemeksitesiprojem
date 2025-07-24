@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Web Sitem</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--! Header Section Start !-->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="hakkinda.html">Hakkında</a>
+        <a href="menu.html">Menü</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="yorumlar.html">Geri bildirim</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="bloglar.html">Bloglar</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="Arayın..."> 
+                <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 1</h3>
+            <div class="price">799.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 2</h3>
+            <div class="price">699.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 3</h3>
+            <div class="price">399.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 4</h3>
+            <div class="price">599.99₺</div>
+          </div>
+        </div>
+        <button class="btn">Siparişi Onayla</button>
+      </div>
+    </header>
+    <!--! Header Section End !-->
+
+    <!--! Home Section Start !-->
+    <section class="home">
+      <div class="content">
+        <h3>Ekspres Eve Teslimat</h3>
+        <p>
+          En sevdiğiniz yemekler dakikalar içinde kapınızda. Hızlı ve güvenilir
+          teslimat hizmetimizle lezzeti ayağınıza getiriyoruz.
+        </p>
+        <a href="#" class="btn">Şimdi Sipariş Ver</a>
+      </div>
+    </section>
+    <!--! Home Section End !-->
+
+    <!--! Menu Section Start !-->
+    <section class="menu">
+      <h1 class="heading">BİZİM <span>MENÜLERİMİZ</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="Menu" />
+            <span class="menu-category">PİZZA</span>
+            <h3>6 Mini Pizza</h3>
+            <div class="price">799.99₺ <span>999.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="Menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="price">699.99₺ <span>799.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="Menu" />
+            <span class="menu-category">PİZZA</span>
+            <h3>2 Mixed Pizza</h3>
+            <div class="price">399.99₺ <span>499.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="Menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="price">599.99₺ <span>699.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! Menu Section End !-->
+    
+    <!--! Products Section Start !-->
+    <section class="products">
+      <h1 class="heading">BİZİM <span>ÜRÜNLERİMİZ</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="#" class="name">PASTIRMALI HAMBURGER</a>
+          </div>
+          <img src="images/product-1.png" alt="Ürün1">
+          <div class="box-bottom">
+          <div class="info">
+            <b class="price">99.99₺</b>
+            <span class="amount">110 gr / 300 cal</span>
+          </div> 
+          <div class="product-btn">
+            <a href="#">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">DARK BURGER</span>
+            <a href="#" class="name">KÖFTELİ HAMBURGER</a>
+          </div>
+          <img src="images/product-2.png" alt="Ürün1">
+          <div class="box-bottom">
+          <div class="info">
+            <b class="price">199.99₺</b>
+            <span class="amount">190 gr / 400 cal</span>
+          </div> 
+          <div class="product-btn">
+            <a href="#">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MEGA DARK BURGER</span>
+            <a href="#" class="name">KÖFTELİ HAMBURGER</a>
+          </div>
+          <img src="images/dark-product.jpg" alt="Ürün1">
+          <div class="box-bottom">
+          <div class="info">
+            <b class="price">299.99₺</b>
+            <span class="amount">240 gr / 500 cal</span>
+          </div> 
+          <div class="product-btn">
+            <a href="#">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! Products Section End !-->
+    <!--About Section Start-->
+    <section class="about">
+      <h1 class="heading">BİZİM <span>Hakkımızda</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="About">
+        </div>
+        <div class="content">
+          <h3>Burgerleri̇mi̇zi̇n gi̇zli̇ tari̇fi̇ nedi̇r ?</h3>
+          <p>Burgerlerimizin gizli tarifi, taptaze malzemeler ve ustalıkla harmanlanmış baharatlarımızda saklı.</p>
+          <p>Etlerimiz günlük hazırlanır, doğal yöntemlerle marine edilerek eşsiz bir lezzet kazanır.</p>
+          <p>Her ısırıkta benzersiz tadı hissedin ve bu lezzet yolculuğuna siz de katılın.</p>
+          <a href="#" class="btn">Daha Fazla</a>
+          </div>
+      </div>
+    </section>
+    <!--About Section End-->
+    <!--Review Section Start-->
+    <section class="review">
+      <h1 class="heading">Müşterİ <span>Gerİ Dönüşü</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote">
+          <p>Hayatımda yediğim en lezzetli burgerdi! Etin sulu ve yumuşak olması, taze sebzelerle birleşince tam bir şölen oldu. Kesinlikle tekrar sipariş vereceğim, ellerinize sağlık.</p>
+          <img src="images/avatar-1.png" alt="avatar" class="user">
+          <h3>Elif Demir</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote">
+          <p>Hamuru incecik, kenarları çıtır çıtırdı. Üzerindeki malzemeler bol ve tazeydi, tam istediğim gibi! Böyle lezzetli bir pizza yediğim için çok mutluyum. Emeğinize sağlık!</p>
+          <img src="images/avatar-2.png" alt="avatar" class="user">
+          <h3>Mehmet Yılmaz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote">
+          <p>Servis inanılmaz hızlıydı, çalışanlar çok güler yüzlü. Özellikle tatlılar harikaydı, mutlaka deneyin. Tekrar gelmek için sabırsızlanıyorum!</p>
+          <img src="images/avatar-3.png" alt="avatar" class="user">
+          <h3>Zeynep Kaya</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--Review Section End-->
+     <!--Contact Section Start-->
+     <section class="contact">
+      <h1 class="heading">İLETİŞİme <span>GeÇİn</span></h1>
+      <div class="row">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3007.4963684381564!2d29.008624500000003!3d41.0800002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDA0JzQ4LjAiTiAyOcKwMDAnMzEuMSJF!5e0!3m2!1str!2str!4v1752147259243!5m2!1str!2str"loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>BİZE ULAŞIn</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="İsminizi ve soyadınızı giriniz...">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Gmail'inizi giriniz...">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Telefon Numaranızı giriniz...">
+          </div>
+          <input type="submit" class="btn" value="Şimdi iletişime geç">
+        </form>
+        
+      </div>
+     </section>
+      <!--Contact Section End-->
+     <!--Blog Section Start-->
+     <section class="blogs">
+            <h1 class="heading">Bloglarımız</h1>
+            <div class="box-container">
+              <div class="box">
+                <div class="image">
+                <img src="images/blog-1.jpg" alt="blog">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">🍔 Evde Hamburger Keyfi</a>
+                  <span>by admin / 6 Temmuz, 2025</span>
+                  <p>Dışarı çıkmadan, mutfağınızda kendi enfes hamburgerinizi yapmaya ne dersiniz? Basit malzemeler ve doğru tarifle harika bir lezzet sizi bekliyor.</p>
+                  <a href="#" class="btn">Devamını oku</a>
+                </div>
+              </div>
+               <div class="box">
+                <div class="image">
+                <img src="images/blog-2.jpg" alt="blog">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">🔥 Hamburgerin Sırrı</a>
+                  <span>by admin / 30 haziran, 2025</span>
+                  <p>Lezzetli bir hamburger için özel bir formül gerekmez. Taze malzemeler, iyi bir köfte ve özenle hazırlanan soslar fark yaratır. Gelin nasıl yapıldığını birlikte keşfedelim.</p>
+                  <a href="#" class="btn">Devamını oku</a>
+                </div>
+              </div>
+               <div class="box">
+                <div class="image">
+                <img src="images/blog-3.jpg" alt="blog">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">😋 Pratik Hamburger Tarifi</a>
+                  <span>by admin / 10 haziran, 2025</span>
+                  <p>Kısa sürede nefis bir hamburger hazırlamak mümkün. Bu yazıda evde kolayca uygulayabileceğiniz tarifle, sofranıza renk katabilirsiniz.</p>
+                  <a href="#" class="btn">Devamını oku</a>
+                </div>
+              </div>
+            </div>
+     </section>
+    <!--Blog Section End-->
+    <!--Footer Section Start-->
+    <section class="footer">
+      <div class="search">
+        <input type="search" class="search-input" placeholder="Ara">
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="hakkinda.html">Hakkında</a>
+        <a href="#">Menü</a>
+        <a href="#">Ürünler</a>
+        <a href="#">Geri bildirim</a>
+        <a href="#">İletişim</a>
+        <a href="#">Bloglar</a>
+      </div>
+      <div class="credit">
+        Created by <span>Talha Kaya</span> © 2025 Tüm hakları saklıdır.
+      </div>
+    </section>
+    <!--Footer Section End-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Web Sitem</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--! Header Section Start !-->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkinda.html">Hakkında</a>
+        <a href="menu.html" class="active">Menü</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="yorumlar.html">Geri bildirim</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="bloglar.html">Bloglar</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="Arayın..."> 
+                <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 1</h3>
+            <div class="price">799.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 2</h3>
+            <div class="price">699.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 3</h3>
+            <div class="price">399.99₺</div>
+          </div>
+        </div>
+           <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+             <div class="content">
+            <h3>Sepet ürünü 4</h3>
+            <div class="price">599.99₺</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Şimdi sipariş et.</a>
+      </div>
+    </header>
+    <!--! Header Section End !-->
+
+    <!--! Menu Section Start !-->
+    <section class="menu">
+      <h1 class="heading">BİZİM <span>MENÜLERİMİZ</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="Menu" />
+            <span class="menu-category">PİZZA</span>
+            <h3>6 Mini Pizza</h3>
+            <div class="price">799.99₺ <span>999.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="Menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="price">699.99₺ <span>799.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="Menu" />
+            <span class="menu-category">PİZZA</span>
+            <h3>2 Mixed Pizza</h3>
+            <div class="price">399.99₺ <span>499.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="Menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="price">599.99₺ <span>699.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! Menu Section End !-->
+
+    <!--Footer Section Start-->
+    <section class="footer">
+      <div class="search">
+        <input type="search" class="search-input" placeholder="Ara">
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkinda.html">Hakkında</a>
+        <a href="menu.html" class="active">Menü</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="yorumlar.html">Geri bildirim</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="bloglar.html">Bloglar</a>
+      </div>
+      <div class="credit">
+        Created by <span>Talha Kaya</span> © 2025 Tüm hakları saklıdır.
+      </div>
+    </section>
+    <!--Footer Section End-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
